@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" /> 
+    <title>MAS-It1</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  </head>
 
-You can use the [editor on GitHub](https://github.com/P-Ramos16/P-Ramos16.github.io/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
+  <body>
+    <aside class="indexAside">
+      <h1 style="font-size: 4em;"><b>JetLocker</b></h1>
+      <h4 style="left:3vw;position:relative;"> powered by <img style="width: 10vw;" src="images/logo.png"></h4>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+      <input type="text" class="indexInput" placeholder="Email">
+      <input type="text" class="indexInput" placeholder="Password" style="margin-bottom: 5vh;">
 
-### Markdown
+      <a href="main/tutorial.html"><button class="indexBtn"> Entrar </button></a>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+      <h5 class="indexH5">Não tem conta? Clicke no butão em baixo</h5>
 
-```markdown
-Syntax highlighted code block
+      <a href="acc/createAcc.html"><button class="indexBtn"> Criar Conta </button></a>
 
-# Header 1
-## Header 2
-### Header 3
+    </aside>
 
-- Bulleted
-- List
+    <main class="indexMain">
 
-1. Numbered
-2. List
+    </main>
 
-**Bold** and _Italic_ and `Code` text
+  </body>
+</html>
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/P-Ramos16/P-Ramos16.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
